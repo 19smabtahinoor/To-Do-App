@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+    <html lang="en-US">
+        <head>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width,initial-scale-1.0">            
+                <title>To-do App</title>
+                <script src="https://kit.fontawesome.com/e4a223b072.js" crossorigin="anonymous"></script>
+                <link href="favicon.png"rel="icon"type="icon/image">
+                <link href="style.css"rel="stylesheet"type="text/css">
+        </head>
+
+            <body>
+                <!--
+                <div class="dark-lightmode">
+                    <img id="image1"src="moon.png">
+                </div>
+                -->
+
+                <!--Full app frame-->
+                <div class="container">
+                    <div class="header">    <!--header Division-->
+
+                                <div class="clear"> <!--refresh button in header division-->
+                                    <i class="fa fa-refresh"></i>   <!--refresh icon from fontawesome-->
+                                </div>
+
+                                <div class="date"id="date"> <!--present date in the header division-->
+                                    <span id="date1"></span>
+
+                                </div>   
+
+                    </div> <!--header division end-->
+
+                    <div class="content"> <!--main content of the app-->
+
+                                <ul id="list"><!--list of to do-->
+                                  <!-- 
+                                        <li class="item">
+                                            <i class="far fa-circle" job="complete"id="0"></i>
+                                            <p class="text">Javascript</p> 
+                                            
+                                        </li> 
+                                   -->
+                                </ul> <!--list of to do end-->
+
+
+                                <div title="Press 'Enter'" class="addItem">  <!--add item-->
+                                    <i class="fa fa-plus-circle"></i> <!--add item circle icon-->
+                                    <input type="text"id="input"placeholder="Add a to-do"> <!--a input field where we do input work list-->
+                                </div> <!--add item end-->
+
+
+                    </div> <!--main content of the app end-->
+                </div><!--Full app frame end-->
+
+                <script src="app.js"></script>
+            </body>        
+    </html>

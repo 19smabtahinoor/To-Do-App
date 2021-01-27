@@ -1,0 +1,219 @@
+body{
+    padding: 0;
+    margin: 0;
+    background-color: rgba(0,0,0,0.1);
+    font-family: 'Titillium Web', sans-serif;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    min-height:100vh;
+}
+
+/* ------------ container ------------ */
+.container{
+    padding: 10px;
+    width: 380px;
+    margin: 0 auto;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+    box-shadow: 0px 0px 12px 0px #00000094;
+    background: black;
+    height: 673px;
+    overflow-x:hidden;
+}
+.container::-webkit-scrollbar{
+    display:none;
+}
+
+/* ------------ header ------------ */
+.header{
+    width: 380px;
+    height: 235px;
+    background-image: url(bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+    background-position: center;
+}
+.clear{
+    width : 30px;
+    height: 30px;
+    position: absolute;
+    right:20px;
+    top: 20px;
+}
+.clear i{
+    font-size: 30px;
+    color: #FFF;
+}
+.clear i:hover{
+    cursor: pointer;
+    text-shadow: 1px 3px 5px #000;
+    transform: rotate(45deg);
+}
+#date{
+    position: absolute;
+    bottom: 10px;
+    left: 5px;
+    color: #FFF;
+    font-size: 25px;
+    font-family: 'Titillium Web', sans-serif;
+    background: black;
+    display: block;
+    width: 371px;
+    padding: 4px;
+}
+
+/* ------------ content ------------ */
+.content{
+    width: 400px;
+    height: 100%;
+    max-height: 398px;
+    background-color: #FFF;
+    overflow: auto;
+    margin-left: -10px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+.content::-webkit-scrollbar { 
+    display: none; 
+}
+.content ul{
+    padding:0;
+    margin:0;
+}
+.item{
+    width: 358px;
+    height: 45px;
+    min-height: 45px;
+    position: relative;
+    border-bottom: 1px solid rgba(0,0,0,0.1);
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    left: 8px;
+}
+.fa-circle-thin{
+    position: absolute !important;
+    font-size: 22px !important;
+    padding-left: 5px !important;
+    left: 15px !important;
+    top: 12px !important;
+    background: none !important;
+    color: black !important;
+}
+.fa-circle-thin:hover{
+    cursor: pointer;
+}
+.fa-trash-o {
+    position: relative!important;
+    top: 5px!important;
+    left: 91%!important;
+    background: #ea0c0c!important;
+    color: white!important;
+    padding: 10px!important;
+}
+.fa-trash-o:hover{
+    background:#af0000 !important;
+    cursor: pointer!important;
+
+}
+.fa-check-circle{
+    color:#6eb200;
+    position: absolute;
+    font-size: 22px;
+    padding-left: 5px;
+    left: 15px;
+    top: 12px;
+}
+.item p.text{
+    position: absolute;
+    padding:0;
+    margin:0;
+    font-size: 20px;
+    left: 53px;
+    top: 12px;
+    background-color: #FFF;
+    max-width:285px;
+}
+.lineThrough{
+    text-decoration: line-through;
+    color : #ccc;
+}
+
+
+/* ------------ add item ------------ */
+.addItem{
+    position: fixed;
+    width: 380px;
+    height: 65px;
+    background-color: #000;
+    padding: 10px;
+    border-top: 1px solid rgba(0,0,0,0.1);
+    top: 82%;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+.addItem i{
+
+    position: absolute;
+    font-size: 40px;
+    color: #ffffff;
+    cursor: pointer;
+    top: 20px;
+    left: 86%;
+
+}
+
+.addItem input{
+    position: absolute;
+    left: 50px;
+    height: 35px;
+    width: 310px;
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    padding-left: 10px;
+    outline: none;
+    color: white;
+    top: 22px;
+}
+.addItem input::-webkit-input-placeholder { 
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+.addItem input::-moz-placeholder { 
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+.addItem input:-ms-input-placeholder { 
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+.addItem input:-moz-placeholder { 
+    color: #ffffff;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
